@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="/register"method="post">
+        <label for = "fullname">Full Name</label>
+        <br>
+        <input type="text" id ="fullname" name="fullname" placeholder="Enter fullname">
+        <br>
+        <br>
+
+        <label for ="email">Email</label>
+        <br>
+        <input type ="email" id="email" name="email" placeholder="Enter email">
+        <br>
+        <br>
+
+        <label>Gender :</label>
+        <br>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="Male">Male</label>
+
+        <input type="radio" value="Female" id="Female" name="gender">
+        <label for="Female">Female</label>
+        <br>
+        <br>
+
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br>
+        <br>
+
+        <label for="file">Uplode file:</label>
+        <br>
+        <input type="file" id="file" name="file">
+        <br>
+        <br>
+
+        <label for="branch">Branch:</label>
+        <select name="branch" id="branch">
+            <option value="cse"> CSE</option>
+            <option value="it">IT</option>
+            <option value="ece">ECE</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Select Skills:</label>
+        <br>
+        <input type="checkbox" id="java" name="skills" value="java">
+        <label for="java">java</label>
+
+        <input type="checkbox" id="javascript" name="skills" value="java">
+        <label for="javaScript">javascript</label>
+        <br>
+        <br>
+
+        
+    </form>
+</body>
+</html>
